@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "remote.server.link",
+      "type": "java.lang.String",
+      "description": "Адрес удалённого сервера pre-rev tinder"
+  }
+] }

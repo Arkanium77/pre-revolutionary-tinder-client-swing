@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="team.isaz.prerevolutionarytinder.client.swing.forms.PrimeForm">
+  <grid id="27dc6" binding="backPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="533"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="d88c6" binding="tabbedPane">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <toolTipText value=""/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="4c50c" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Анкеты"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="2a887" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="19139" class="javax.swing.JButton" binding="left">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <text value="Влево"/>
+                    </properties>
+                  </component>
+                  <component id="46bba" class="javax.swing.JButton" binding="right">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <text value="Вправо"/>
+                    </properties>
+                  </component>
+                  <component id="5a99b" class="javax.swing.JLabel" binding="labelNotify1">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="7bdff" class="javax.swing.JTextArea" binding="profileView">
+                <constraints border-constraint="Center"/>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+          <grid id="850b" binding="autorizePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Входъ и регiстрацiя"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="29b60" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a8931" class="javax.swing.JButton" binding="login">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <text value="Войти"/>
+                    </properties>
+                  </component>
+                  <component id="6c444" class="javax.swing.JButton" binding="rigister">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <text value="Регистрациiя"/>
+                    </properties>
+                  </component>
+                  <component id="46d39" class="javax.swing.JLabel" binding="labelNotify2">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="e2c5a" layout-manager="GridBagLayout">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="5efac" class="javax.swing.JLabel" binding="usernameLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Ваше имя"/>
+                    </properties>
+                  </component>
+                  <component id="8bcd6" class="javax.swing.JTextField" binding="username">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="3ba82" class="javax.swing.JLabel" binding="passwordLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Секретный шифръ"/>
+                    </properties>
+                  </component>
+                  <component id="84b3e" class="javax.swing.JPasswordField" binding="password">
+                    <constraints>
+                      <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="d72eb" class="javax.swing.JLabel" binding="sex">
+                    <constraints>
+                      <grid row="2" column="0" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Полъ"/>
+                    </properties>
+                  </component>
+                  <component id="82ce6" class="javax.swing.JLabel" binding="profileMessageLabel">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Сообщение профиля"/>
+                    </properties>
+                  </component>
+                  <grid id="d97cf" layout-manager="GridBagLayout">
+                    <constraints>
+                      <grid row="3" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="ccc89" class="javax.swing.JRadioButton" binding="sexTrue">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="1.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <selected value="true"/>
+                          <text value="Сударь"/>
+                        </properties>
+                      </component>
+                      <component id="b0893" class="javax.swing.JRadioButton" binding="sexFalse">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="1.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <selected value="false"/>
+                          <text value="Сударыня"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="90d46" class="javax.swing.JTextArea" binding="profileMessage">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Пока здѣсь пусто..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="98b4e" binding="matchesPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Любiмцы"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="cc575" class="javax.swing.JList" binding="list1" default-binding="true">
+                <constraints border-constraint="West"/>
+                <properties/>
+              </component>
+              <component id="a985a" class="javax.swing.JTextArea" binding="profileViewMatches">
+                <constraints border-constraint="Center"/>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="sexGroup">
+      <member id="ccc89"/>
+      <member id="b0893"/>
+    </group>
+  </buttonGroups>
+</form>
